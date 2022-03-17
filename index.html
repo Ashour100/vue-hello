@@ -13,10 +13,11 @@
 <body>
     <main id="app">
         <h1>{{messaggio}}</h1>
-        <input v-model="link" type="text">
-        <button @click="mostraImg(link)">dcsdc</button><br>
+        <input v-model="link" type="url">
+        <button @click="mostraImg(link)">Check</button><br>
         <img :src="src" alt="">
     </main>
     <script src="main.js"></script>
 </body>
 </html>
+
